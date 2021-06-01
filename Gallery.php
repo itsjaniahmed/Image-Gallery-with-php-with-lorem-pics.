@@ -10,8 +10,12 @@
 <style>
   body {
     background: rgb(250, 250, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
-
+h1{
+  text-align:center;
+  text-transform: uppercase;
+}
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +36,7 @@
   <div class="gallery"> 
 
   <?php 
-    for ($i=1; $i < 21 ; $i++) { 
+    for ($i=1; $i < 46 ; $i++) { 
       $imge="https://picsum.photos/400?random=".strval($i);
   ?>
 
